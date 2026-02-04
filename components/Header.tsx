@@ -51,8 +51,6 @@ const Header: React.FC = () => {
             Get in Touch
           </a>
         </nav>
-
-        <button className="md:hidden text-2xl">☰</button>
       </div>
     </header>
   );
