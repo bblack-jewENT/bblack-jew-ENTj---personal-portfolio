@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-white text-xs">
-            SF
+            B
           </div>
           <span className="text-xl font-bold tracking-tighter">
             bblack-jew ENTj
@@ -20,19 +20,19 @@ const Footer: React.FC = () => {
 
         <div className="flex items-center gap-6">
           <a
-            href="#"
+            href="https://www.instagram.com/mo.ses_themessiah/"
             className="text-slate-400 hover:text-indigo-600 transition-colors"
           >
             Instagram
           </a>
           <a
-            href="#"
+            href="https://www.tiktok.com/@bblack_jew"
             className="text-slate-400 hover:text-indigo-600 transition-colors"
           >
             TikTok
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/bblack-jewent/"
             className="text-slate-400 hover:text-indigo-600 transition-colors"
           >
             LinkedIn
