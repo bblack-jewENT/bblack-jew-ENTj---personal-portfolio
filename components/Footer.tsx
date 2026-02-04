@@ -21,18 +21,21 @@ const Footer: React.FC = () => {
         <div className="flex items-center gap-6">
           <a
             href="https://www.instagram.com/mo.ses_themessiah/"
+            target="_blank"
             className="text-slate-400 hover:text-indigo-600 transition-colors"
           >
             Instagram
           </a>
           <a
             href="https://www.tiktok.com/@bblack_jew"
+            target="_blank"
             className="text-slate-400 hover:text-indigo-600 transition-colors"
           >
             TikTok
           </a>
           <a
             href="https://www.linkedin.com/in/bblack-jewent/"
+            target="_blank"
             className="text-slate-400 hover:text-indigo-600 transition-colors"
           >
             LinkedIn
