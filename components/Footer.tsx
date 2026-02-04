@@ -22,6 +22,7 @@ const Footer: React.FC = () => {
           <a
             href="https://www.instagram.com/mo.ses_themessiah/"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-slate-400 hover:text-indigo-600 transition-colors"
           >
             Instagram
@@ -29,6 +30,7 @@ const Footer: React.FC = () => {
           <a
             href="https://www.tiktok.com/@bblack_jew"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-slate-400 hover:text-indigo-600 transition-colors"
           >
             TikTok
@@ -36,6 +38,7 @@ const Footer: React.FC = () => {
           <a
             href="https://www.linkedin.com/in/bblack-jewent/"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-slate-400 hover:text-indigo-600 transition-colors"
           >
             LinkedIn

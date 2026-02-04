@@ -1,0 +1,6 @@
+/* Project global styles */
+.float-duration {
+  animation-duration: 3s !important;
+}
+
+/* Keep this file available for additional global overrides */

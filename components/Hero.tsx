@@ -1,4 +1,5 @@
 import React from "react";
+import myImage from "./img/my-image.jpg";
 
 const Hero: React.FC = () => {
   return (
@@ -53,16 +54,13 @@ const Hero: React.FC = () => {
         <div className="relative">
           <div className="relative z-10 bg-white p-4 rounded-3xl shadow-2xl border border-slate-100 transform lg:rotate-2 hover:rotate-0 transition-transform duration-500">
             <img
-              src="/components/img/my-image.JPG"
+              src={myImage}
               className="rounded-2xl w-full h-[600px] object-cover"
               alt="Creative Strategy"
             />
 
             {/* Floating Stats */}
-            <div
-              className="absolute -left-6 top-1/4 bg-white p-4 rounded-2xl shadow-xl border border-slate-50 animate-bounce transition-all"
-              style={{ animationDuration: "3s" }}
-            >
+            <div className="absolute -left-6 top-1/4 bg-white p-4 rounded-2xl shadow-xl border border-slate-50 animate-bounce transition-all float-duration">
               <div className="flex items-center gap-3">
                 <div className="p-2 bg-green-100 rounded-lg text-green-600">
                   📈
